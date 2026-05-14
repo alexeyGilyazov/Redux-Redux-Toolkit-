@@ -1,7 +1,7 @@
 // import "./App.css";
-import AnotherComponent from './src/Components/AnotherComponent';
+import AnotherComponent from './Components/AnotherComponent';
 import { useDispatch, useSelector } from 'react-redux';
-import { incrementCountExample, decrementCountExample, resetCountExample } from '../Redux-Redux-Toolkit-/src/Store/exampleCount'
+import { incrementCountExample, decrementCountExample, resetCountExample } from './Store/exampleCount'
 
 
 function App1() {
@@ -15,8 +15,8 @@ function App1() {
 
     const dispatch = useDispatch()
     const count = useSelector((state) => state.exampleCounter.count)
-    
-    
+
+
 
     return (
         <>

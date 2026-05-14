@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { exampleAddTodo, exampleRemoveTodo, exampleToggleComplited, exampleEditedTodo } from "./src/Store/exampleTodoSlice";
+import { exampleAddTodo, exampleRemoveTodo, exampleToggleComplited, exampleEditedTodo } from "./Store/exampleTodoSlice";
 
 function App2() {
 
